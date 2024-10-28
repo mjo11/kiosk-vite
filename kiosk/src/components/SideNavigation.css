@@ -1,0 +1,56 @@
+.sidebar {
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+  color: #fff;
+  text-align: center;
+  background-color: #1A417A;
+  border-right: 1px solid #e0e0e0;
+  padding: 20px;
+  height: 100vh;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.527);
+  position: Fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  overflow-y: auto; 
+  overflow-x: hidden; 
+}
+
+.sidebar h4{
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  line-height: 20px;
+}
+
+.sidebar ul li {
+  background-color: #609EE4;
+  padding: 10px 6px;
+  margin-bottom: 5px;
+  color:   #FFFFFF;
+  font-size: 15px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.sidebar .seal-container{
+  padding: 10px;
+}
+
+.sidebar .seal-logo{
+  margin: 15px 50px 15px 50px;
+  width: 150px; /* Adjust as needed */
+  object-fit: contain;
+  border-radius: 50%; /* Optional: Make the logo a circle */
+  border: 5px solid #609EE4; /* Adds a border around the logo */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the pop-out effect */
+}
+
+
