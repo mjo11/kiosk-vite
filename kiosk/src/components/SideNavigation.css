@@ -1,12 +1,11 @@
 .sidebar {
-  max-width: 100%;
   height: auto;
-  width: 300px;
+  width: 17%;
   color: #fff;
   text-align: center;
   background-color: #1A417A;
   border-right: 1px solid #e0e0e0;
-  padding: 20px;
+  padding: 1%;
   height: 100vh;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.527);
   position: Fixed;
@@ -15,6 +14,7 @@
   z-index: 1000;
   overflow-y: auto; 
   overflow-x: hidden; 
+  justify-content: start;
 }
 
 .sidebar h4{
@@ -46,7 +46,7 @@
 
 .sidebar .seal-logo{
   margin: 15px 50px 15px 50px;
-  width: 150px; /* Adjust as needed */
+  width: 50%; /* Adjust as needed */
   object-fit: contain;
   border-radius: 50%; /* Optional: Make the logo a circle */
   border: 5px solid #609EE4; /* Adds a border around the logo */

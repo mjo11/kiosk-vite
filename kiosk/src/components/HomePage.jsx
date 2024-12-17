@@ -25,7 +25,7 @@ const HomePage = () => {
       <div className="banner banner-bottom">
         <div className="banner-bottom content">
         <h1>SAN PABLO CITY MEGA CAPITOL</h1>
-        <button className="action-button"> <a href="/kiosk">TAP TO BEGIN</a></button>
+        <button className="action-button"><a href="/kiosk">TAP TO BEGIN</a></button>
         <p>Client's Service Assistance Kiosk <br />Powered by MIS San Pablo 2024</p>
         <img className="MISseal"src={MISSeal}/>
         </div>
